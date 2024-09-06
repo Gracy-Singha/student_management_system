@@ -24,7 +24,7 @@ if(isset($_POST['teacher']))
 
 
     $sql = "INSERT INTO `teacher`(`username`, `email`, `phone`, `password`) VALUES ('$username', '$user_email', '$user_phone', '$user_password', '$usertype')";
-    $result = mysqli_query($data, $sql);
+    $result = mysqli_query($data, $sql);//here has problem
 
 
     if($result)
