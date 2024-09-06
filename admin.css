@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(194, 240, 154);
+    line-height: 70px;
+    padding-left: 30px;
+}
+a,a:hover{
+    text-decoration: none!important;
+}
+.logout{
+    float: right;
+    padding-right: 30px;
+}
+.sidebar{
+    background-color: rgb(20, 85, 87);
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+}
+.sidebar li{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.sidebar li a{
+    color: aliceblue;
+    font-weight: bold;
+}
+.sidebar li a:hover{
+    color: skyblue;
+    text-decoration: none;
+}
+.content{
+    margin-left: 20%;
+    margin-top: 5%;
+}

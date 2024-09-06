@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav
+{
+    position: fixed;
+    background-color: rgb(194, 240, 154);
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+.logo
+{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+    line-height: 60px;
+    padding: 5px;
+}
+ul
+{
+    position: relative;
+    float: right;
+    margin: 2px;
+}
+ul li
+{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+ul li a
+{
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 60px;
+}
+.main_img{
+    width: 80%;
+    height: 200px;
+}
+.section1{
+    padding-top: 75px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: rgb(19, 18, 16);
+    font-size: 35px;
+    background-color: transparent;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.welcome_img{
+    width: 100%;
+    height: 250px;
+}
+.container{
+    padding-top: 50px;
+    margin-right: 1.5px;
+
+}
+.slides{
+    width: 1000px;
+    height: 50px;
+    padding: 100px;
+    margin: 50px;
+}
+.teacher{
+    width: 90%;
+    height: 200px;
+}
+.courcess{
+        width: 90%;
+        height: 200px;
+}
+.student{
+    padding-top: 30px;
+    padding-bottom: 0.01cm;
+}
+.label_text{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding: 10px;
+    
+}
+.input_deg{
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.adm_int{
+    padding-top: 10px;
+}
+.input_txt{
+    width: 30%;
+    height: 120px;
+    border-radius: 25px;
+    border: 1px solid black ;
+}
+#submit{
+    position: relative;
+    width: 15%;
+    left: 5%;
+}
+/* footer */
+footer{
+    margin-top:10px ;
+    background-color:  rgb(194, 240, 154);
+    height: 70px;
+    width: 100%;
+    padding-right: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+.footer_text{
+    text-align: center;
+    color: aliceblue;
+    top: 20%;
+    position: relative;
+}
+.adm{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+/* login */
+.form_deg{
+    padding-top: 20px;
+    
+}
+.label_deg{
+    display: inline-block;
+    color: #0a0101;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.login{
+    padding-top: 10px;
+}
+.login_form{
+    background-color: transparent;
+    width: 400px;
+    padding: 45px;
+    padding-bottom: 70px;
+}
+.body_deg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
